@@ -1,0 +1,46 @@
+# DVC Ignore File
+# Patterns to ignore when tracking with DVC
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+
+# Model checkpoints (track only final models)
+checkpoints/
+*.ckpt
+
+# Temporary data processing files
+temp_*
+tmp_*
+
+# Cache directories
+cache/
+.cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
